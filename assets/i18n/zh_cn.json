@@ -1,0 +1,351 @@
+{
+  "APP": {
+    "MENU": {
+      "TITLE": "菜单"
+    },
+    "COMPANY": {
+      "NAME": "鑫钻机电"
+    },
+    "HOME": {
+      "TITLE": "首页",
+      "LABEL": {
+        "FLOW": "流量",
+        "POWER": "功率"
+      },
+      "CAL_LIST": {
+        "DESC": "依据以下数据计算："
+      }
+    },
+    "AIR_REC_CAL": {
+      "TITLE": "储气罐",
+      "INFO": "该计算器根据系统中压缩空气流量来计算所需储气容积。",
+      "HEAD": {
+        "FORMULA": "公式",
+        "CALCULATION": "计算",
+        "RESULT": "结果"
+      },
+      "DESC": {
+        "COMPRESSOR_CAPACITY": "空压机自由空气流量",
+        "CYCLE_DURATION": "加/卸载最高频率周期",
+        "PRESSURE_BAND": "加/卸载之间压力差",
+        "TEMP_IN_THE_AIR_RECEIVER": "储气容器中温度",
+        "INLET_TEMP_COMPRESSOR": "进气温度"
+      },
+      "BUTTON": {
+        "SUBMIT": "计算",
+        "RESET": "重置",
+        "COPY": "复制",
+        "UNSUPPORTED": "(不支持)"
+      }
+    },
+    "WATER_IN_THE_AIR": {
+      "TITLE": "空气含水量",
+      "INFO": "该计算器计算在空气管网中有多少水分残留。根据空压设备技术的精进程度或多或少均有部分适量残余于压缩空气中。去除残余的水分一定程度上也保护了材料与压缩空气接触的时候不被腐蚀或者影响。",
+      "HEAD": {
+        "CALCULATION": "计算",
+        "RESULT": "结果"
+      },
+      "DESC": {
+        "CAPACITY": "空气自由流量",
+        "PRESSURE": "压力",
+        "AMBIENT_TEMP": "压缩空气进气温度",
+        "RELATIVE_HUMIDITY": "相对湿度",
+        "LOAD_FACTOR": "空压机负载率",
+        "WEEKLY_RUNNING_HOURS": "每周使用时长"
+      },
+      "BUTTON": {
+        "SUBMIT": "提交",
+        "RESET": "重置"
+      },
+      "RESULT": {
+        "DRYING_METHOD": "干燥方式",
+        "WEEK": "周",
+        "ANNUM": "年",
+        "NO_TREATMENT": "无干燥",
+        "AFTER_COLLER": "后冷却干燥",
+        "AFTER_COOLER_AND_REF_DRYER": "后冷却 + 冷冻式干燥",
+        "AFTER_COOLER_AND_MEM_DRYER": "后冷却 + 渗膜式干燥",
+        "AFTER_COOLER_AND_DES_DRYER": "后冷却 + 除湿式干燥"
+      }
+    },
+    "PRESSURE_DROP": {
+      "TITLE": "压降",
+      "INFO": "该计算器是根据管网中管道的长度及直径来计算压降。",
+      "HEAD": {
+        "FORMULA": "公式",
+        "CALCULATION": "计算",
+        "RESULT": "结果"
+      },
+      "DESC": {
+        "CAPACITY_COMPRESSOR": "压缩空气流量",
+        "ESTI_PIPE_LENGTH": "预估管道长度",
+        "INTER_DIAM_OF_PIPE": "管道内径",
+        "COMPRESSOR_SWITCH_OFF_PRESSURE": "绝对初始压力"
+      },
+      "BUTTON": {
+        "SUBMIT": "计算",
+        "RESET": "重置",
+        "COPY": "复制",
+        "UNSUPPORTED": "(不支持)"
+      },
+      "TIP": {
+        "COST_OF_PRESSURE_DROP": {
+          "FRONT": "需要计算压降损耗？",
+          "END": "点击此处。"
+        }
+      }
+    },
+    "COST_OF_PRESSURE_DROP": {
+      "TITLE": "压降损耗",
+      "INFO": "该计算器计算系统内压降损耗的预估值。",
+      "HEAD": {
+        "FORMULA": "公式",
+        "CALCULATION": "计算",
+        "RESULT": "结果"
+      },
+      "DESC": {
+        "CAPACITY_COMPRESSOR": "压缩气体流量",
+        "PRESSURE_DROP_FILTER": "管道滤芯压降",
+        "PRESSURE_DROP_PIPE": "管道压降",
+        "PRESSURE_DROP_DRYER": "干燥机压降",
+        "RUNNING_HOURS": "平均空压机运行时间",
+        "COST_OF_ELECTRICITY": "耗电量"
+      },
+      "BUTTON": {
+        "SUBMIT": "计算",
+        "RESET": "重置",
+        "COPY": "复制",
+        "UNSUPPORTED": "(不支持)"
+      }
+    },
+    "LEAKAGES": {
+      "TITLE": "泄露",
+      "INFO": {
+        "LINE_1": "简单计算压缩空气管网中的泄漏。",
+        "LINE_2": "关闭所有耗气设备与空压机；",
+        "LINE_3": "测量压力，记录时间；",
+        "LINE_4": "观察至少两个小时以上；",
+        "LINE_5": "测量压力，记录时间。"
+      },
+      "HEAD": {
+        "FORMULA": "公式",
+        "CALCULATION": "计算",
+        "RESULT": "结果"
+      },
+      "DESC": {
+        "RECEIVER_VOLUME": "储存气体容积",
+        "START_PRESSURE": "开始测量",
+        "END_PRESSURE": "结束测量"
+      },
+      "BUTTON": {
+        "SUBMIT": "提交",
+        "RESET": "重置",
+        "COPY": "复制",
+        "UNSUPPORTED": "(不支持)"
+      }
+    },
+    "PIPE_WIDTH": {
+      "TITLE": "管道直径",
+      "INFO": "该计算器根据压降以及工作压力来计算所需管道直径。",
+      "HEAD": {
+        "FORMULA": "公式",
+        "CALCULATION": "计算",
+        "RESULT": "结果"
+      },
+      "DESC": {
+        "TOTAL_VOLUME_FLOW": "所需测定总流量",
+        "PIPE_LENGTH": "所需管道长度",
+        "INTENDED_PRESSURE_DROP": "预计压降",
+        "SWITCH_OFF_PRESSURE": "管道内最高压力"
+      },
+      "BUTTON": {
+        "SUBMIT": "计算",
+        "RESET": "重置",
+        "COPY": "复制",
+        "UNSUPPORTED": "(不支持)"
+      }
+    },
+    "VOLUME_CONVERSION": {
+      "TITLE": "容积换算",
+      "INFO": "该计算器将根据实际使用场所条件下的温度，相对湿度等条件来计算得出由标准状况下的流量转换到该实际场所的流量。",
+      "MODE": {
+        "NORMAL": "常态",
+        "STANDARD": "标准"
+      },
+      "HEAD": {
+        "CALCULATION": "计算",
+        "RESULT": "结果"
+      },
+      "DESC": {
+        "TOTAL_VOLUME_FLOW": "总体积流量",
+        "TEMPERATURE": "温度",
+        "ATMO_PRESSURE": "大气压",
+        "RELATIVE_HUMI": "相对温度"
+
+      },
+      "BUTTON": {
+        "SUBMIT": "计算",
+        "RESET": "重置",
+        "COPY": "复制",
+        "UNSUPPORTED": "(不支持)"
+      }
+    },
+    "COOLING_AIRFLOW": {
+      "TITLE": "冷却风量",
+      "INFO": "该计算器是基于装机功率及周边环境来计算所需冷却风量",
+      "HEAD": {
+        "FORMULA": "公式",
+        "CALCULATION": "计算",
+        "RESULT": "结果"
+      },
+      "DESC": {
+        "INSTALLED_COMPRESSOR_POWER": "空压机装机功率",
+        "INSTALLED_DRYER_POWER": "干燥机装机功率",
+        "TEMP_OUTSIDE_COMPRESSOR_ROOM": "空压机出口温度",
+        "MAX_TEMP_INLET_COMPRESSOR": "空压机最大入口温度"
+      },
+      "BUTTON": {
+        "SUBMIT": "计算",
+        "RESET": "重置",
+        "COPY": "复制",
+        "UNSUPPORTED": "(不支持)"
+      }
+    },
+    "UNIT_CONVERSION": {
+      "TITLE": "单位换算",
+      "UNIT": "单位",
+      "PRESSURE": "压力",
+      "VOLUME": "体积",
+      "FLOW": "流量",
+      "TEMPERATURE": "温度",
+      "POWER": "功率",
+      "VACUMM": "真空",
+      "UNITS": {
+        "bar": "巴(bar)",
+        "mbar": "毫巴(mbar)",
+        "PSI": "磅力/(英寸^2)(PSI)",
+        "Torr": "托(Torr)",
+        "atm": "标准大气压(atm)",
+        "Pa": "帕斯卡(Pa)",
+        "kPa": "千帕斯卡(kPa)",
+        "hPa": "百帕斯卡(hPa)",
+        "mmHg": "毫米汞柱(mm Hg)",
+        "lbf/(ft^2)": "磅力/(英尺^2)(lbf/(ft^2))",
+        "in Hg": "英吋汞柱(in Hg)",
+        "kgf/c㎡": "公斤力/(厘米^2)(kgf/c㎡)",
+        "kgf/㎡": "公斤力/(米^2)(kgf/㎡)",
+        "mmH2O": "毫米水柱(mmH2O)",
+        "L": "升(L)",
+        "m³": "立方米(m³)",
+        "mL": "毫升(mL)",
+        "gal (USA)": "加仑（美国）(gal)",
+        "gal (British)": "加仑（英国）(gal)",
+        "cf³": "立方英尺(cf³)",
+        "in³": "立方英寸(in³)",
+        "yd³": "立方码(yd³)",
+        "L/min": "升/分钟(L/min)",
+        "L/s": "升/秒(L/min)",
+        "m³/min": "立方米/分钟(m³/min)",
+        "cfm": "立方英尺/分钟(cfm)",
+        "°C": "摄氏度(°C)",
+        "°F": "华氏度(°F)",
+        "K": "开尔文(K)",
+        "kW": "千瓦(kW)",
+        "HP": "马力(HP)",
+        "PS": "Pferdestärke(PS)"
+      },
+      "BUTTON": {
+        "RESET": "重置"
+      }
+    },
+    "CONTACT_INFO": {
+      "TITLE": "联系方式"
+    },
+    "SETTINGS": {
+      "TITLE": "设置",
+      "LABEL": {
+        "LANGUAGE": {
+          "DIVIDER": "语言"
+        },
+        "FLOW": {
+          "DIVIDER": "流量",
+          "VOLUME": "体积",
+          "TIME": "时间"
+        },
+        "VOLUME": {
+          "DIVIDER": "体积"
+        },
+        "PRESSURE": {
+          "DIVIDER": "压力"
+        },
+        "TEMPERATURE": {
+          "DIVIDER": "温度"
+        },
+        "POWER": {
+          "DIVIDER": "功率"
+        },
+        "CURRENCY": {
+          "DIVIDER": "货币"
+        }
+      },
+      "VALUE": {
+        "LANGUAGE": {
+          "EN": "English",
+          "ZH_CN": "简体中文"
+        },
+        "FLOW": {
+          "VOLUME": {
+            "LITER": "升",
+            "CUBIC_METER": "立方米",
+            "GALLON_USA": "加仑（美式）",
+            "GALLON_BRITISH": "加仑（英式）",
+            "CUBIC_FOOT": "立方尺",
+            "CUBIC_INCH": "立方英寸",
+            "CUBIC_YARD": "立方码"
+          },
+          "TIME": {
+            "SECOND": "秒",
+            "MINUTE": "分",
+            "HOUR": "时"
+          }
+        },
+        "VOLUME": {
+          "LITER": "升",
+          "MILLILITER": "毫升",
+          "CUBICMETER": "立方米",
+          "CUBICFOOT": "立方尺"
+        },
+        "PRESSURE": {
+          "MILLIBAR": "毫巴",
+          "BAR": "巴",
+          "PPSI": "PSI",
+          "TORR": "托",
+          "TECH_ATMO": "工业大气压",
+          "STD_ATMO": "标准大气压",
+          "PASCAL": "Pa"
+        },
+        "TEMPERATURE": {
+          "CELCIUS": "摄氏度",
+          "FAHRENHEIT": "华氏温度",
+          "KELVIN": "开"
+        },
+        "POWER": {
+          "KILOWATT": "千瓦",
+          "HORSE_POWER": "马力",
+          "PFERDESTARKE": "马力（德制）"
+        },
+        "CURRENCY": {
+          "EURO": "欧元",
+          "US_DOLLAR": "美元"
+        }
+      }
+    },
+    "MORE": {
+      "SETTING": "设置",
+      "ABOUT": "关于"
+    },
+    "TOAST": {
+      "COPIED": "结果已复制！"
+    }
+  }
+}

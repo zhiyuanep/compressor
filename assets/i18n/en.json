@@ -1,0 +1,351 @@
+{
+  "APP": {
+    "MENU": {
+      "TITLE": "Menu"
+    },
+    "COMPANY": {
+      "NAME": ""
+    },
+    "HOME": {
+      "TITLE": "Home",
+      "LABEL": {
+        "FLOW": "Flow",
+        "POWER": "Power"
+      },
+      "CAL_LIST": {
+        "DESC": "Calculations made with the following defaults:"
+      }
+    },
+    "AIR_REC_CAL": {
+      "TITLE": "Air Receiver Calculation",
+      "INFO": "This calculation will calculate the receiver size for the compressor independent of the air flow demand in the system.",
+      "HEAD": {
+        "FORMULA": "FORMULA",
+        "CALCULATION": "CALCULATION",
+        "RESULT": "RESULT"
+      },
+      "DESC": {
+        "COMPRESSOR_CAPACITY": "Compressor capacity",
+        "CYCLE_DURATION": "Charge / discharge cycle compressor",
+        "PRESSURE_BAND": "Pressure band",
+        "TEMP_IN_THE_AIR_RECEIVER": "Temp. in the AIR receiver",
+        "INLET_TEMP_COMPRESSOR": "Temp. @ air intake compressor"
+      },
+      "BUTTON": {
+        "SUBMIT": "Submit",
+        "RESET": "Reset",
+        "COPY": "Copy",
+        "UNSUPPORTED": "(Unsupported)"
+      }
+    },
+    "WATER_IN_THE_AIR": {
+      "TITLE": "Water In The Air",
+      "INFO": "This calculation will give you an indication how much water that will remain in the compressed air network.  Depending on the technology used more or less water will remain in the compressed air. Removing water is needed to avoid corrosion or influence the material where the compressed air gets in contact with.",
+      "HEAD": {
+        "CALCULATION": "Calculation",
+        "RESULT": "Result"
+      },
+      "DESC": {
+        "CAPACITY": "Capacity",
+        "PRESSURE": "Pressure",
+        "AMBIENT_TEMP": "Compressor air intake temperaturee",
+        "RELATIVE_HUMIDITY": "Relative humidity",
+        "LOAD_FACTOR": "Compressor load factor",
+        "WEEKLY_RUNNING_HOURS": "Weekly hours"
+      },
+      "BUTTON": {
+        "SUBMIT": "Submit",
+        "RESET": "Reset"
+      },
+      "RESULT": {
+        "DRYING_METHOD": "Drying Method",
+        "WEEK": "Week",
+        "ANNUM": "Annum",
+        "NO_TREATMENT": "No Treatment",
+        "AFTER_COLLER": "After Cooler",
+        "AFTER_COOLER_AND_REF_DRYER": "After Cooler + Refrigerant Dryer",
+        "AFTER_COOLER_AND_MEM_DRYER": "After Cooler + Membrane Dryer",
+        "AFTER_COOLER_AND_DES_DRYER": "After Cooler + Desiccant Dryer"
+      }
+    },
+    "PRESSURE_DROP": {
+      "TITLE": "Pressure Drop",
+      "INFO": "This calculation will calculate the pressure drop in the pipe network taking into account the length and the diameter of the compressed air net pipes.",
+      "HEAD": {
+        "FORMULA": "Formula",
+        "CALCULATION": "Calculation",
+        "RESULT": "Result"
+      },
+      "DESC": {
+        "CAPACITY_COMPRESSOR": "Capacity compressor",
+        "ESTI_PIPE_LENGTH": "Estimated pipe length",
+        "INTER_DIAM_OF_PIPE": "Internal diameter of the pipe",
+        "COMPRESSOR_SWITCH_OFF_PRESSURE": "Compressor switch off pressure"
+      },
+      "BUTTON": {
+        "SUBMIT": "Submit",
+        "RESET": "Reset",
+        "COPY": "Copy",
+        "UNSUPPORTED": "(Unsupported)"
+      },
+      "TIP": {
+        "COST_OF_PRESSURE_DROP": {
+          "FRONT": "Calculate cost of pressure drop?",
+          "END": "tap here"
+        }
+      }
+    },
+    "COST_OF_PRESSURE_DROP": {
+      "TITLE": "Cost Of Pressure Drop",
+      "INFO": "This calculation will give an estimation of the a cost of the pressure drop in the system.",
+      "HEAD": {
+        "FORMULA": "Formula",
+        "CALCULATION": "Calculation",
+        "RESULT": "Result"
+      },
+      "DESC": {
+        "CAPACITY_COMPRESSOR": "Capacity compressor",
+        "PRESSURE_DROP_FILTER": "Pressure drop filter",
+        "PRESSURE_DROP_PIPE": "Pressure drop pipe",
+        "PRESSURE_DROP_DRYER": "Pressure drop dryer",
+        "RUNNING_HOURS": "Average compressor running hours",
+        "COST_OF_ELECTRICITY": "Cost of electricity"
+      },
+      "BUTTON": {
+        "SUBMIT": "Submit",
+        "RESET": "Reset",
+        "COPY": "Copy",
+        "UNSUPPORTED": "(Unsupported)"
+      }
+    },
+    "LEAKAGES": {
+      "TITLE": "Leakages",
+      "INFO": {
+        "LINE_1": "Simple calculation tool to measure the leakages in the compressed air network.",
+        "LINE_2": "Switch off all consumers and compressors.",
+        "LINE_3": "Measure the pressure and time.",
+        "LINE_4": "Wait for at least 2 hours or more.",
+        "LINE_5": "Measure the pressure and time."
+      },
+      "HEAD": {
+        "FORMULA": "Formula",
+        "CALCULATION": "Calculation",
+        "RESULT": "Result"
+      },
+      "DESC": {
+        "RECEIVER_VOLUME": "Receiver volume",
+        "START_PRESSURE": "Start pressure",
+        "END_PRESSURE": "End pressure"
+      },
+      "BUTTON": {
+        "SUBMIT": "Submit",
+        "RESET": "Reset",
+        "COPY": "Copy",
+        "UNSUPPORTED": "(Unsupported)"
+      }
+    },
+    "PIPE_WIDTH": {
+      "TITLE": "Pipe Width",
+      "INFO": "This calculation will calculate the required diameter based on required pressure drop and operation pressure.",
+      "HEAD": {
+        "FORMULA": "Formula",
+        "CALCULATION": "Calculation",
+        "RESULT": "Result"
+      },
+      "DESC": {
+        "TOTAL_VOLUME_FLOW": "Total volumetric flow",
+        "PIPE_LENGTH": "Pipe length to accommodate",
+        "INTENDED_PRESSURE_DROP": "Intended pressure drop",
+        "SWITCH_OFF_PRESSURE": "Switch off pressure"
+      },
+      "BUTTON": {
+        "SUBMIT": "Submit",
+        "RESET": "Reset",
+        "COPY": "Copy",
+        "UNSUPPORTED": "(Unsupported)"
+      }
+    },
+    "VOLUME_CONVERSION": {
+      "TITLE": "Volume Conversion",
+      "INFO": "This calculation will convert the flow from standard conditions to real on site conditions considering, site temperature, relative humidity.",
+      "MODE": {
+        "NORMAL": "Normal",
+        "STANDARD": "Standard"
+      },
+      "HEAD": {
+        "CALCULATION": "Calculation",
+        "RESULT": "Result"
+      },
+      "DESC": {
+        "TOTAL_VOLUME_FLOW": "Total volumetric flow",
+        "TEMPERATURE": "Temperature",
+        "ATMO_PRESSURE": "Atmospheric pressure",
+        "RELATIVE_HUMI": "Relative humidity"
+
+      },
+      "BUTTON": {
+        "SUBMIT": "Submit",
+        "RESET": "Reset",
+        "COPY": "Copy",
+        "UNSUPPORTED": "(Unsupported)"
+      }
+    },
+    "COOLING_AIRFLOW": {
+      "TITLE": "Cooling Airflow",
+      "INFO": "Based on installed power ambient condition this calculation will calculte de desired cooling airflow.",
+      "HEAD": {
+        "FORMULA": "Formula",
+        "CALCULATION": "Calculation",
+        "RESULT": "Result"
+      },
+      "DESC": {
+        "INSTALLED_COMPRESSOR_POWER": "Installed compressor power",
+        "INSTALLED_DRYER_POWER": "Installed dryer power",
+        "TEMP_OUTSIDE_COMPRESSOR_ROOM": "Temp. outside compressor room",
+        "MAX_TEMP_INLET_COMPRESSOR": "Max temp @ inlet compressor"
+      },
+      "BUTTON": {
+        "SUBMIT": "Submit",
+        "RESET": "Reset",
+        "COPY": "Copy",
+        "UNSUPPORTED": "(Unsupported)"
+      }
+    },
+    "UNIT_CONVERSION": {
+      "TITLE": "Unit Conversion",
+      "UNIT": "Unit",
+      "PRESSURE": "Pressure",
+      "VOLUME": "Volume",
+      "FLOW": "Flow",
+      "TEMPERATURE": "Temperature",
+      "POWER": "Power",
+      "VACUMM": "Vacumm",
+      "UNITS": {
+        "bar": "bar",
+        "mbar": "mbar",
+        "PSI": "PSI",
+        "Torr": "Torr",
+        "atm": "atm",
+        "Pa": "Pa",
+        "kPa": "kPa",
+        "hPa": "hPa",
+        "mmHg": "mm Hg",
+        "lbf/(ft^2)": "lbf/(ft^2)",
+        "in Hg": "in Hg",
+        "kgf/c㎡": "kgf/c㎡",
+        "kgf/㎡": "kgf/㎡",
+        "mmH2O": "mmH2O",
+        "L": "L",
+        "m³": "m³",
+        "mL": "mL",
+        "gal (USA)": "gal (USA)",
+        "gal (British)": "gal (British)",
+        "cf³": "cf³",
+        "in³": "in³",
+        "yd³": "yd³",
+        "L/min": "L/min",
+        "L/s": "L/min",
+        "m³/min": "m³/min",
+        "cfm": "cfm",
+        "°C": "°C",
+        "°F": "°F",
+        "K": "K",
+        "kW": "kW",
+        "HP": "Hurse Power",
+        "PS": "Pferdestärke(PS)"
+      },
+      "BUTTON": {
+        "RESET": "Reset"
+      }
+    },
+    "CONTACT_INFO": {
+      "TITLE": "Contact Info"
+    },
+    "SETTINGS": {
+      "TITLE": "Settings",
+      "LABEL": {
+        "LANGUAGE:" : {
+          "DIVIDER" : "Language"
+        },
+        "FLOW": {
+          "DIVIDER": "Flow",
+          "VOLUME": "Volume",
+          "TIME": "Time"
+        },
+        "VOLUME": {
+          "DIVIDER": "Volume"
+        },
+        "PRESSURE": {
+          "DIVIDER": "Pressure"
+        },
+        "TEMPERATURE": {
+          "DIVIDER": "Temperature"
+        },
+        "POWER": {
+          "DIVIDER": "Power"
+        },
+        "CURRENCY": {
+          "DIVIDER": "Currency"
+        }
+      },
+      "VALUE": {
+        "LANGUAGE": {
+          "EN": "English",
+          "ZH_CN": "简体中文"
+        },
+        "FLOW": {
+          "VOLUME": {
+            "LITER": "Liter",
+            "CUBIC_METER": "Cubic Meter",
+            "GALLON_USA": "Gallon USA",
+            "GALLON_BRITISH": "Gallon British",
+            "CUBIC_FOOT": "Cubic Foot",
+            "CUBIC_INCH": "Cubic Inch",
+            "CUBIC_YARD": "Cubic Yard"
+          },
+          "TIME": {
+            "SECOND": "Second",
+            "MINUTE": "Minute",
+            "HOUR": "Hour"
+          }
+        },
+        "VOLUME": {
+          "LITER": "Liter",
+          "MILLILITER": "Milliliter",
+          "CUBICMETER": "CubicMeter",
+          "CUBICFOOT": "CubicFoot"
+        },
+        "PRESSURE": {
+          "MILLIBAR": "Millibar",
+          "BAR": "Bar",
+          "PPSI": "Pounds per Square Inch",
+          "TORR": "Torr",
+          "TECH_ATMO": "Technical atmosphere",
+          "STD_ATMO": "Standard atmosphere",
+          "PASCAL": "Pascal"
+        },
+        "TEMPERATURE": {
+          "CELCIUS": "Celcius",
+          "FAHRENHEIT": "Fahrenheit",
+          "KELVIN": "Kelvin"
+        },
+        "POWER": {
+          "KILOWATT": "Kilowatt",
+          "HORSE_POWER": "Horse power",
+          "PFERDESTARKE": "Pferdestärke"
+        },
+        "CURRENCY": {
+          "EURO": "Euro",
+          "US_DOLLAR": "US Dollar"
+        }
+      }
+    },
+    "MORE": {
+      "SETTING": "Setting",
+      "ABOUT": "About"
+    },
+    "TOAST": {
+      "COPIED": "Result Copied!"
+    }
+  }
+}
